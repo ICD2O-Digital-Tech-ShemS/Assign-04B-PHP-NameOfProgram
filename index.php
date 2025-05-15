@@ -18,10 +18,10 @@
     </tr>
   </table>
     <?php 
-      echo "<h3>Fill out form</h3>";
+      echo "<h3>Place order</h3>";
     ?>
     <!-- Form to get age and day from the user -->
-    <form action="result.php" method="post" target="result">
+    <form action="#">
       <h3>Order</h3>
       <div>
       <input type="number" step="any" min="1" max="2" id="order" placeholder="order" />
