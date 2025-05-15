@@ -8,14 +8,12 @@
     $main_price = 0;
     $side_price = 0;
     const HST = 0.13;
-    $selection = Regular
-    $selection2 = Large
 
-    if ($order == $selection) {
+    if ($order == 1) {
         $ans = "You chose option 1 $19";
         $main_price = 19;
     } 
-    else if ($order == $selection2) {
+    else if ($order == 2) {
         $ans = "You chose option 2 $18";
         $main_price = 18;
     } 
