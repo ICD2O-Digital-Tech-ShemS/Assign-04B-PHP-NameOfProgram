@@ -8,11 +8,17 @@
     $main_price = 0;
     $side_price = 0;
     const HST = 0.13;
+    $selection = Regular
+    $selection2 = Large
 
-    if ($order == 1) {
+    if ($order == $selection) {
         $ans = "You chose option 1 $19";
         $main_price = 19;
-    }
+    } 
+    else if ($order == $selection2) {
+        $ans = "You chose option 2 $18";
+        $main_price = 18;
+    } 
     else {
         $ans = "You did not enter a main dish";
     }
@@ -26,7 +32,7 @@
         $side_price = 6;
     } 
     else {
-        $display = "You did not enter a valid side";
+        $display = "You did not enter a side";
     }
     $subtotal = $main_price + $side_price;
     $total_amount = $subtotal + ($subtotal * HST);
