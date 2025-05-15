@@ -12,11 +12,7 @@
     if ($order == 1) {
         $ans = "You chose option 1 $19";
         $main_price = 19;
-    } 
-    else if ($order == 2) {
-        $ans = "You chose option 2 $18";
-        $main_price = 18;
-    } 
+    }
     else {
         $ans = "You did not enter a main dish";
     }
