@@ -14,14 +14,15 @@
 
   <table>
     <tr>
-      <td><h1>OPTION 1</h1><img src="./images/KFC1.webp"> <h1>OPTION 2</h1><img src="./images/KFC2.webp"></td>
+      <td><h1>OPTION 1</h1><img src="./images/KFC1.webp"></td>
+      <td><h1>OPTION 2</h1><img src="./images/KFC2.webp"></td>
     </tr>
   </table>
     <?php 
       echo "<h3>Place order</h3>";
     ?>
     <!-- Form to get age and day from the user -->
-    <form action="#">
+    <form action="result.php" method="post" target="result">
       <h3>Order</h3>
       <div>
       <input type="number" step="any" min="1" max="2" id="order" placeholder="order" />
@@ -38,9 +39,9 @@
     </form>
 
     <iframe id="result" name="result">
-    <div id="ans"></div>
-    <div id="display"></div>
-    <div id="total"></div>
+    <div id="$ans"></div>
+    <div id="$display"></div>
+    <div id="$total"></div>
     </iframe>
   </body>
 </html>
