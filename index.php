@@ -39,9 +39,11 @@
     </form>
 
     <iframe id="result" name="result">
+    <div id="user-info">
     <div id="$ans"></div>
     <div id="$display"></div>
     <div id="$total"></div>
+  </div>
     </iframe>
   </body>
 </html>

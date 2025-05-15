@@ -41,10 +41,8 @@
     else {
         $total = "Place an order";
     }
-
-  // Output
-    echo "<h3>Results:</h3>";
-    echo "$ans";
-    echo "$display";
-    echo "$total";
 ?>
+<h3>Results:</h3>
+<?php echo "$ans" ?>
+<?php echo "$display" ?>
+<?php echo "$total" ?>
